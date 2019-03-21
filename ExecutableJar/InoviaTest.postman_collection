@@ -1,0 +1,245 @@
+{
+	"id": "d2e2ed24-fd5c-ef8b-ccea-aa32c0fed4a4",
+	"name": "InoviaTest",
+	"description": "",
+	"order": [
+		"c71d0126-038d-c16a-5132-eadc17dfcb14",
+		"ed340662-2aa5-73a3-897e-975d49841217",
+		"f90c5818-38a5-4dfa-2885-68df8a0b195e",
+		"909673fa-9972-5129-b444-14af5a33f31b",
+		"78d55336-2890-34a4-8de4-ace67fe98de9",
+		"5bbd2e12-6b84-f26f-ae08-31b53cae2ea6",
+		"f9a7038e-98e0-1f0c-52db-8446de3e8a1d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1553190165409,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "5bbd2e12-6b84-f26f-ae08-31b53cae2ea6",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/rest/findBeanByField1?field1=field1 - value3&field2=field2 Value3",
+			"queryParams": [
+				{
+					"key": "field1",
+					"value": "field1 - value3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "field2",
+					"value": "field2 Value3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d2e2ed24-fd5c-ef8b-ccea-aa32c0fed4a4",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/rest/findBeanByField1?field1=field1 - value3&field2=field2 Value3",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553190263092,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "78d55336-2890-34a4-8de4-ace67fe98de9",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/rest/findBeanByField2?field2=field2 Value1",
+			"queryParams": [
+				{
+					"key": "field2",
+					"value": "field2 Value1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d2e2ed24-fd5c-ef8b-ccea-aa32c0fed4a4",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/rest/findBeanByField2?field2=field2 Value1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553190249993,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "909673fa-9972-5129-b444-14af5a33f31b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/rest/findBeanByField1?field1=field1 - value2",
+			"queryParams": [
+				{
+					"key": "field1",
+					"value": "field1 - value2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d2e2ed24-fd5c-ef8b-ccea-aa32c0fed4a4",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/rest/findBeanByField1?field1=field1 - value2",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553190240573,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c71d0126-038d-c16a-5132-eadc17dfcb14",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/rest/findBeanByField1?field1=field1 - value2",
+			"queryParams": [
+				{
+					"key": "field1",
+					"value": "field1 - value2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d2e2ed24-fd5c-ef8b-ccea-aa32c0fed4a4",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/rest/findBeanByField1?field1=field1 - value2",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553190182621,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ed340662-2aa5-73a3-897e-975d49841217",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/rest/findBeanById?Id=3",
+			"queryParams": [
+				{
+					"key": "Id",
+					"value": "3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d2e2ed24-fd5c-ef8b-ccea-aa32c0fed4a4",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/rest/findBeanById?Id=3",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553190198037,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f90c5818-38a5-4dfa-2885-68df8a0b195e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/rest/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "d2e2ed24-fd5c-ef8b-ccea-aa32c0fed4a4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/rest/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553190214220,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"field1\":\"field1 - value2\",\"field2\":\"field2 Value2\"}"
+		},
+		{
+			"id": "f9a7038e-98e0-1f0c-52db-8446de3e8a1d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/rest/findBeanById?Id=3",
+			"queryParams": [
+				{
+					"key": "Id",
+					"value": "3",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d2e2ed24-fd5c-ef8b-ccea-aa32c0fed4a4",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/rest/findBeanById?Id=3",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553190272187,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
