@@ -10,13 +10,6 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import se.inovia.test.model.Bean;
 import se.inovia.test.service.BeanService;
 
-import java.text.DateFormat;
-import java.text.FieldPosition;
-import java.text.ParsePosition;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
