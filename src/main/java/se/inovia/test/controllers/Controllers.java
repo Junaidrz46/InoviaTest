@@ -73,6 +73,7 @@ public class Controllers {
     @GetMapping("/findBeanByField1AndField2")
     public Optional<Bean> getBeanByField1AndField2(@RequestParam("field1") String field1,
                                                    @RequestParam("field2") String field2){
+
         System.out.println("Field2 Value : "+field2);
         return beanService.findBeanByField2(field2);
     }
