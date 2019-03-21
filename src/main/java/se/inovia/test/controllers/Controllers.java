@@ -28,14 +28,6 @@ public class Controllers {
     @Autowired
     BeanService beanService;
 
-    @RequestMapping("/welcome")
-    public String getWelcomeMessage() {
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String formattedDate = format.format(new Date());
-        System.out.println("Hello World !"+formattedDate);
-        return "Hello World !"+formattedDate;
-    }
-
     @PostMapping(consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     public ResponseEntity<?> insertBeanData(@RequestBody Bean bean){
         beanService.saveBean(bean);
