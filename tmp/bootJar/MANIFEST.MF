@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Start-Class: se.inovia.test.InoviaTestApplication
+Main-Class: org.springframework.boot.loader.JarLauncher
+
