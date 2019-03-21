@@ -21,7 +21,7 @@ public class Controllers {
     @Autowired
     BeanService beanService;
 
-    @PostMapping(consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
+    @PostMapping
     public ResponseEntity<?> insertBeanData(@RequestBody Bean bean){
         beanService.saveBean(bean);
         HttpHeaders httpHeaders = new HttpHeaders();
